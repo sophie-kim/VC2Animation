@@ -1,0 +1,8 @@
+body {
+    font-family:'Yeseva One','Cutive Mono', monospace;'Playfair Display', serif;
+    -webkit-font-smoothing: antialiased;
+    color: black;
+    margin-top: 0;
+    height: 100vh;
+  }
+

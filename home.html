@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home-Page Animation Project</title>
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Playfair+Display|Rozha+One|Yeseva+One" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <a href="index.html" lyrics></a>
+<!-- credit: for hover link https://www.w3schools.com/howto/howto_css_image_overlay.asp -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: .03;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+</style>
+</head>
+<body>
+
+
+<div class="container">
+        <img src="img/bookends-cover.jpg" width="1263" height="1129">
+  <div class="middle">
+    <div class="text"><center><a href="index.html">SEE MORE</a></center></div>
+  </div>
+</div>
+  
+</body>
+</html>
