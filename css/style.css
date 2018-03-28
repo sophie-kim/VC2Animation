@@ -1,5 +1,5 @@
 body {
-  font-family:'Yeseva One','Cutive Mono', monospace;'Playfair Display', serif;
+  font-family: 'Cutive Mono', monospace; serif;
   -webkit-font-smoothing: antialiased;
   color: black;
   margin: 0;
@@ -13,12 +13,11 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 h2 {
   font-size: 20px;
-    font-family: 'Cutive Mono'
 }
 
 header {
@@ -49,6 +48,7 @@ tr {
         animation-delay: 1s;
         opacity: 0;
         animation-fill-mode: forwards;
+        line-height: 10px;
 }
 
 @keyframes textfade-1{
@@ -65,6 +65,7 @@ tr {
   animation-delay: 1s;
   opacity: 0;
   animation-fill-mode: forwards;
+  line-height: 10px;
 }
 
 @keyframes textfade-2{
@@ -81,6 +82,7 @@ tr {
   animation-delay: 1s;
   opacity: 0;
   animation-fill-mode: forwards;
+  line-height: 10px;
 }
 
 @keyframes textfade-3{
@@ -97,6 +99,7 @@ tr {
   animation-delay: 1s;
   opacity: 0;
   animation-fill-mode: forwards;
+  line-height: 10px;
 }
 
 @keyframes textfade-4{
@@ -113,6 +116,7 @@ tr {
   animation-delay: 1s;
   opacity: 0;
   animation-fill-mode: forwards;
+  line-height: 10px;
 }
 
 @keyframes textfade-5{
@@ -129,6 +133,7 @@ tr {
   animation-delay: 1s;
   opacity: 0;
   animation-fill-mode: forwards;
+  line-height: 10px;
 }
 
 @keyframes textfade-6{
@@ -145,6 +150,7 @@ tr {
   animation-delay: 1s;
   opacity: 0;
   animation-fill-mode: forwards;
+  line-height: 10px;
 }
 
 @keyframes textfade-7{
@@ -193,6 +199,7 @@ p {
 section {
     height: 100%;
     width: 100hh; 
+    margin-bottom: 60px;
 }
 
 #one {
@@ -222,9 +229,13 @@ section {
 #seven {
   width: 100vw
 }
-.btn { padding: 10px ; margin: 20px;text-decoration: none; color: black; border: 1px solid black;}
+.btn { font-family: 'Cutive Mono'; font-size: 15px; font-weight: 1000; padding: 10px ; margin: 20px; text-decoration: none; color: black; border: 2px solid black;}
 
+.article {
+  margin-left: 50px;
+}
 
-
-/* below is css code from online  */
+* table {
+  margin-left: 50px;
+}
 
